@@ -1,0 +1,91 @@
+/* General Styles */
+body {
+    font-family: 'Poppins', sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+    color: black;
+    transition: 0.3s ease;
+}
+
+/* Dark Mode */
+body.dark-mode {
+    background-color: #121212;
+    color: white;
+}
+
+/* Header */
+nav {
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem;
+    background: #f5f5f5;
+}
+
+.nav-links {
+    list-style: none;
+    display: flex;
+    gap: 15px;
+}
+
+.nav-links a {
+    text-decoration: none;
+    color: black;
+}
+
+#theme-toggle {
+    cursor: pointer;
+    background: none;
+    border: none;
+    font-size: 1.5rem;
+}
+
+/* Skills Section */
+.skill {
+    margin: 10px 0;
+}
+
+.progress-bar {
+    width: 100%;
+    background: #ddd;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.progress {
+    height: 10px;
+    background: blue;
+    transition: width 1s ease-in-out;
+}
+
+/* Expertise */
+.expertise-grid {
+    display: flex;
+    gap: 10px;
+}
+
+.expertise-card {
+    background: #ddd;
+    padding: 15px;
+    cursor: pointer;
+    transition: 0.3s;
+}
+
+.expertise-card:hover {
+    background: #bbb;
+}
+
+/* Contact Form */
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+button {
+    background: blue;
+    color: white;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+}
